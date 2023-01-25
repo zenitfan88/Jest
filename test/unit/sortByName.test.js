@@ -15,7 +15,7 @@ describe("Books names test suit", () => {
     ]);
   });
 
-  it("Book titles should not be sorted", () => {
+  it("Sorting the same book titles", () => {
     expect(
       sorting.sortByName([
         "Гарри Поттер", 
